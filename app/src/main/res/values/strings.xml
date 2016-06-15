@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Notes App</string>
+    <string name="edtTxtPin">Enter Pin</string>
+    <string name="txtvwvHint">Hint: 1122</string>
+    <string name="btnAdding">Add Item</string>
+    <string name="swtchVisible">Visibility</string>
+    <string name="btnQuitApp">Quit</string>
+    <string name="txtvwvReview">Rate this app!</string>
+    <string name="btnCredits">Credits</string>
+    <string name="txtvwvCredits">Credits:</string>
+    <string name="btnExit">Quit</string>
+</resources>

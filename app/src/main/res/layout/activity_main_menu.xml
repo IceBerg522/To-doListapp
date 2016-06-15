@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.student.to_dolistapp.MainMenuActivity"
+    android:nestedScrollingEnabled="false">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edttxtPin"
+        android:layout_marginTop="73dp"
+        android:text="@string/edtTxtPin"
+        android:layout_alignParentTop="true"
+        android:onClick="eraseText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvwvHint"
+        android:text="@string/txtvwvHint"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgbtnCheck"
+        android:layout_below="@+id/edttxtPin"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/ic_partial_secure"
+        android:maxHeight="65dp"
+        android:maxWidth="65dp"
+        android:minHeight="65dp"
+        android:minWidth="65dp"
+        android:nestedScrollingEnabled="false"
+        android:onClick="btncheckPin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCredits"
+        android:id="@+id/btnCredits"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="gotoCredits" />
+
+</RelativeLayout>
